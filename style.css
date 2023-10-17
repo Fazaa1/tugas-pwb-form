@@ -1,0 +1,27 @@
+* {
+    font-family: 'helvetica';
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://static.promediateknologi.id/crop/5x184:717x619/750x500/webp/photo/p1/805/2023/08/27/Screenshot_2023-08-27-13-26-13-45-1954048998.png);
+    background-repeat: none;
+    background-size: cover;
+    background-size: cover;
+
+}
+.hiasan{
+    background: rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur(20px);
+    border-radius: 5%;
+    
+    padding: 20px;
+}
+
