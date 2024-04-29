@@ -8,10 +8,20 @@
 </head>
 <h1>SELAMAT DATANG!</h1> 
 <div class="hiasan"> <br>
-Welcome <?php echo $_POST["nama"]; ?>!<br/>Your First Name <?php echo $_POST["nama"]; ?> <br/>Your LastName.<?php echo $_POST["nama1"]; ?> <br>
+Welcome <?php echo $_POST["nama"]; ?>!<br/>Your First Name <?php echo $_POST["nama"]; ?> Your LastName.<?php echo $_POST["nama1"]; ?> <br>
 Your Gender <?php echo $_POST["gender"]; ?>  <br>
 Your Languange <?php echo $_POST["nationality"]; ?>  <br>
-Your country <?php echo $_POST["languange"]; ?>  <br>
+Your Country <?php
+        if(isset($_POST['language'])) {
+            $languages = $_POST["language"];
+            echo "Menggunakan bahasa ";
+            foreach($languages as $language) {
+                echo $language . ", ";
+            }
+            echo "<br>";
+        } else {
+            echo "Anda belum memilih bahasa<br>";
+       }; ?><br>
 Your message <?php echo $_POST["message"]; ?> <br>
 <br><br>
 </body>

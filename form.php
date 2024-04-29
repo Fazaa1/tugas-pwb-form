@@ -81,13 +81,15 @@
 <option value="Malayasia">Malayasia<option>
 <option value="Bekasi">Bekasi<select>  
     </select> <br> <br>
-<label for="nationality">Languange</label><br>
-<input type="checkbox" id="languange1" name="languange"value="bahasa Indoensia"> 
-<label for="Languange">Bahasa Indonesia</label><br>
-<input type="checkbox" id="languange2" name="languange"value="English">
-<label for="Languange">English</label><br>
-<input type="checkbox" id="languange3" name="languange"value="other">
-<label for="Languange">Other</label><br>
+    <p>Language Spoken</p>
+        <input type="checkbox" id="language1" value="Indonesia" name="language[]">
+        <label for="language1"> Bahasa Indonesia</label><br>
+        <input type="checkbox" id="language2" value="English" name="language[]">
+        <label for="language2"> English</label><br>
+        <input type="checkbox" id="language3" value="Palestina" name="language[]">
+        <label for="language3"> Palestine</label><br>
+        <input type="checkbox" id="language4" value="Sunda" name="language[]">
+        <label for="language4"> Sunda</label><br>
 
 <label for="message">Your Message</label><br>
 <textarea name="message" rows="20" cols="25"></textarea>
