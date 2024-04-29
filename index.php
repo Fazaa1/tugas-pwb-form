@@ -32,7 +32,7 @@
         <h2>Cara Bergabung ke Media Online</h2>
         <ol type="1">
             <li label style="color: #363609bb; font-size: 16px; font-weight: bold;">Mengunjungi Website ini</label>
-            <li label style="color: #363609bb; font-size: 16px; font-weight: bold;">Mendaftakarkan di: <a href="form.html">Sign UP</a></label>
+            <li label style="color: #363609bb; font-size: 16px; font-weight: bold;">Mendaftakarkan di: <a href="form.php">Sign UP</a></label>
             <li label style="color: #363609bb; font-size: 16px; font-weight: bold;">Selesai.</label>
         </ol>
     </body>
